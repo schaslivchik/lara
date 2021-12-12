@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+::selection {
+    color: #fff;
+    background-color: #f53228;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8fafc;
+    color: #383838;
+}
+.container-laravel {
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+}
+a {
+    color: #f53228;
+}
+a:hover {
+    color: #ce271e;
+}
+.btn {
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 0 25px;
+}
+.btn-primary {
+    background-color: #f53228;
+    border-color: #f53228;
+}
+.btn-primary:hover {
+    background-color: #ce271e;
+    border-color:  #ce271e;
+}
+.top-bar,
+.top-bar a {
+    font-size: 12px;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.left-side-top-bar {
+    display: flex;
+    align-items: center;
+}
+.icon-top-bar {
+    height: 18px;
+}
+.icon-top-bar {
+    display: inline;
+    margin-right: 10px;
+}
+.telega-chanel a{
+    color: #383838;
+}
+.telega-chanel {
+    margin-right: 40px;
+}
+.registration-link {
+    display: inline;
+    margin-right: 25px;
+}
+.top-search .form-control::placeholder {
+    font-size: 12px;
+}
+.top-search .form-control {
+    font-size: 12px;
+    padding-left: 0;
+    border-radius: 0;
+    border-color: transparent;
+    background-color: transparent;
+}
+.top-search .form-control:focus {
+    box-shadow: none;
+}
+
+.top_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    -webkit-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    -moz-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+}
+.main_menu a {
+    font-size: 14px;
+    color: #383838;
+}
+.main_menu a:not(:last-child) {
+    margin-right: 32px;
+}
+.banner-laravel-title {
+    font-size: 58px;
+    font-weight: 900;
+}
+.banner-laravel-txt p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+}
+.title-secondary-block {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.laravel-questions {
+    padding: 55px 25px;
+    border-radius: 8px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    -moz-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+}
+.laravel-list-questions {
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.badge-primary {
+    background-color: #f53228;
+}
+.badge-laravel {
+    display: block;
+    min-width: 40px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+.laravel-list-questions .badge-laravel {
+    margin-right: 15px;
+}
+.laravel-list-questions-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid #c6c6c6;
+    padding: 20px 0;
+}
+.laravel-list-questions-item:first-child {
+    padding: 0 0 20px 0;
+}
+.laravel-list-questions-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.laravel-list-questions-item a {
+    color: #383838;
+    padding-top: 3px;
+}
+.laravel-list-questions-item a:hover {
+    color: #f53228;
+}
+.order-link {
+    font-size: 14px;
+    font-weight: 600;
+}
+.laravel-order {
+    padding: 55px 0;
+}
+.laravel-order-list-item {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    -moz-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+}
+.laravel-order-list{
+    padding: 0;
+    list-style-type: none;
+}
+.order-parameters {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+.order-link {
+    display: block;
+    font-size: 16px;
+    color: #383838;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.order-parameters li {
+    margin-right: 30px;
+}
+.order-parameters-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.order-parameters-item p {
+    margin: 0;
+}
+.order-parameters-item img {
+    margin-right: 8px;
+}
+.laravel-order-list-item {
+    margin-bottom: 30px;
+}
+.container-questions-and-orders {
+    margin-bottom: 80px;
+}
+.table-rating {
+    padding: 30px 40px;
+    border: 1px solid #dae2e6;
+    border-radius: 8px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #f53228;
+}
+
+#pills-tab {
+background-color: #fff;
+width: auto;
+display: inline-flex;
+padding: 10px;
+margin: 10px auto 40px;
+border-radius: 6px;
+overflow: hidden;
+-webkit-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+-moz-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+}
+.table-rating {
+    display: flex;
+    flex-direction: column;
+}
+.laravel-table tr {
+    background-color: #ffffff;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 1px;
+}
+.table td, .table th {
+    padding: 20px;
+}
+.table {
+    margin-bottom: 0;
+}
+#pills-tabContent {
+    border-radius: 6px;
+    overflow: hidden;
+}
+.table-bordered {
+    border: 2px solid #ffffff;
+   
+}
+.tab-content {
+    -webkit-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    -moz-box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+    box-shadow: 0px 43px 33px 3px rgba(218, 223, 230, 0.4);
+}
+.laravel-table .separeted-line {
+    background-color: #f8f8f8;
+    border-right: 2px solid #f8f8f8;
+    border-left: 2px solid #f8f8f8;
+}
+.studio-td img {
+ height: 50px;
+ margin-right: 10px;
+}
+
